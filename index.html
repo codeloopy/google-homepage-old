@@ -1,48 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Google Search Page - The Odin Project</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
 
     </head>
 
     <body>
-        <div class = "topMenu">
-            <ul>
-                <li><a href="http://www.gmail.com">Gmail</a></li>
-                <li><a href="#">Images</a></li>
-                <li><button type="button">Sign In</button></li>
-            </ul>
-        </div>
-        
-        <div>
-            <div class="googleLogo">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+        <div class="container-fluid">
+            <div class = "topMenu">
+                <ul>
+                    <li><a href="http://www.gmail.com">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><button type="button">Sign In</button></li>
+                </ul>
             </div>
             
-            <div class="searchBar">
-                <form>
-                    <input type = "search" name = "searchBar"><br>
-                    <input type = "submit" value = "Google Seach">
-                    <input type = "submit" value = "I'm feeling Luck">
-                </form>
-            </div>
+            <div id="clear"></div>
             
             <div>
-                <img src = "https://www.google.com/images/hpp/d4g-4.png" alt = "arts logo">
-                <p>Young artists coast to coast entered Doodle 4 Google: <a href="#">Which masterpiece should win?</a></p>
-            </div>
-            
-            <div class="footer">
-                <div class="leftFooter">
-                    <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">About</a>
+                <div class="googleLogo">
+                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+                </div>
+
+                <div class="searchBar">
+                    <form>
+                        <input id= "sBar" type = "search" name = "searchBar"><br>
+                    </form>
+                    <form class="buttons">
+                        <input class = "button" type = "submit" value = "Google Seach">
+                        <input class = "button" type = "submit" value = "I'm feeling Luck">
+                    </form>
+                </div>
+
+                <div class="message">
+                    <img src = "https://www.google.com/images/hpp/d4g-4.png" alt = "arts logo">
+                    <p>Young artists coast to coast entered Doodle 4 Google: <a href="#">Which masterpiece should win?</a></p>
                 </div>
                 
-                <div class="rightFooter">
-                    <a href="#">Privacy</a>
-                    <a href="#">Terms</a>
-                    <a href="#">Settings</a>
+                <div class="footer">
+                    <div class="leftFooter">
+                        <a href="#">Advertising</a>
+                    <a href="#">Business</a>
+                    <a href="#">About</a>
+                    </div>
+
+                    <div class="rightFooter">
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Settings</a>
+                    </div>
                 </div>
             </div>
         </div>

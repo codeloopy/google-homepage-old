@@ -1,0 +1,68 @@
+.topMenu {
+    width: 100%;
+    background-color: lightgrey;
+}
+
+ul {
+    list-style-type: none;
+    height: 30px;
+    float:right;
+}
+
+li {
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.googleLogo {
+    display:block;
+    margin: 150px auto 20px auto;
+    text-align: center;   
+}
+
+.searchBar {
+    text-align: center;
+}
+
+#sBar {
+    width: 50%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: .5px solid #b6babe;
+    max-width: 500px;
+}
+
+.button {
+    background-color: #F4F4F4;
+    width: auto;
+    border-radius: 3px;
+    border: solid 5px #F4F4F4;
+}
+
+.button value {
+    color: red;
+}
+
+.message {
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.message p{
+    text-align: left;
+    margin: 10px 0 0 50px;
+}
+
+.message img {
+    width: 38px;
+    height: auto;
+    display: block;
+    float: left;
+}
