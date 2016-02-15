@@ -3,6 +3,10 @@
     background-color: lightgrey;
 }
 
+.btn {
+    background-color: #4284F5;
+}
+
 ul {
     list-style-type: none;
     height: 30px;
@@ -68,13 +72,17 @@ li {
 .footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 105%;
     height: 60px;
     background-color: #f5f5f5;
+    display: block;
+    margin-left: -20px;
 }
 
 .leftFooter {
     float:left;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 
 .leftFooter a {
@@ -85,7 +93,8 @@ li {
 
 .rightFooter {
     float:right;
-    margin-right: 20px;
+    margin-right: 60px;
+    margin-top: 15px;
 }
 
 .rightFooter a {
